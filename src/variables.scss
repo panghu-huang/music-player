@@ -1,0 +1,6 @@
+$primaryColor: #2e2e2e;
+$secondaryColor: #858585;
+
+@function px2rem($px) {
+  @return #{$px / 150}rem;
+}

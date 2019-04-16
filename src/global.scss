@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+body {
+  margin: 0;
+}
+
+:global(.iconfont) {
+  font-size: px2rem(42);
+}
+
+:global(.icon-comment) {
+  font-size: px2rem(36);
+}

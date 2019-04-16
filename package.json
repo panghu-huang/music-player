@@ -1,0 +1,31 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "wokeyi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "server-renderer dev"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-storer": "^0.0.2",
+    "server-renderer": "^0.2.10"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/koa": "^2.0.48",
+    "@types/node": "^11.13.4",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "tslib": "^1.9.3",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.3"
+  }
+}

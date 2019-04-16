@@ -1,0 +1,17 @@
+@import '~src/variables.scss';
+
+$height: px2rem(16);
+
+.container {
+  width: 100%;
+  height: $height;
+  background-color: rgb(168, 166, 166);
+  border-radius: px2rem(4);
+  overflow: hidden;
+}
+
+.inner {
+  height: $height;
+  background-color: #53885c;
+  transform: all 0.2s;
+}

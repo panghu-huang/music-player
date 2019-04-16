@@ -1,0 +1,61 @@
+@import '~src/variables.scss';
+
+.song {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: px2rem(60);
+}
+
+.songName {
+  font-size: px2rem(50);
+  margin: px2rem(20) 0;
+}
+
+.coverWrapper {
+  position: relative;
+  width: 100%;
+  height: px2rem(500);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: px2rem(8);
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  margin-right: px2rem(12);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info span {
+  margin-left: px2rem(28);
+}
+
+.singer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: px2rem(80);
+  height: px2rem(80);
+  border-radius: 50%;
+  margin-right: px2rem(8);
+}
+
+.singerName {
+  font-size: px2rem(40);
+}
+
+:global(.icon-praise:before),
+:global(.icon-share:before),
+:global(.icon-comment:before) {
+  padding-right: px2rem(8);
+}
