@@ -4,7 +4,7 @@ interface ILyricProps {
   lyricUrl: string | undefined
 }
 
-const Lyric: React.SFC<ILyricProps> = ({ lyricUrl }) => {
+const Lyric: React.FunctionComponent<ILyricProps> = ({ lyricUrl }) => {
   const [content, setContent] = React.useState(null as React.ReactNode)
   React.useEffect(() => {
     if (!lyricUrl) {
